@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 
+
 public class Auras extends JavaPlugin {
 	
 	@Override
@@ -20,11 +21,10 @@ public class Auras extends JavaPlugin {
 		this.getCommand("auras").setExecutor(new AurasCommand(this, lst));
 		this.getCommand("ars").setExecutor(new AurasCommand(this, lst));
 	} catch(Exception e) {
-		System.out.println("Error registering the /levelstats command.");
+		System.out.println("Error registering the /ars command.");
 	}
 	
 }
-	
 	
 	
 	

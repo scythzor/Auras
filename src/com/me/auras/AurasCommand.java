@@ -6,6 +6,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.scheduler.BukkitScheduler;
 
 import com.me.auras.Auras;
 import com.me.auras.AurasListener;
@@ -31,6 +32,7 @@ public class AurasCommand implements CommandExecutor {
 				if(args[0].equalsIgnoreCase("enderman")){
 					Location loc = p.getLocation();
 					p.playEffect(loc, Effect.ENDER_SIGNAL, 0);
+					
 					return true;
 				}
 				return true;
@@ -49,8 +51,7 @@ public class AurasCommand implements CommandExecutor {
 	
 
 	
-	
-	
+
 	
 	
 }
