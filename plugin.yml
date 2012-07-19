@@ -1,0 +1,11 @@
+name: Auras
+main: com.me.auras.Auras
+version: 1
+
+commands:
+    auras:
+        description: test
+        usage: /<command>
+    ars:
+        description: test
+        usage: /<command>
